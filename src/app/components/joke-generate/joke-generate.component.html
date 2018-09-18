@@ -1,0 +1,7 @@
+<h1>Jokes</h1>
+<button (click)=generateRandomJoke() >Generate joke</button>
+<div *ngIf="joke">
+  <p>{{joke.value}}</p>
+  <button>Add joke</button>
+</div>
+
