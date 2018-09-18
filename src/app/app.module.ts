@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { JokeGenerateComponent } from './components/joke-generate/joke-generate.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ListJokesComponent } from './components/list-jokes/list-jokes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    JokeGenerateComponent
+    JokeGenerateComponent,
+    ListJokesComponent
   ],
   imports: [
     BrowserModule,

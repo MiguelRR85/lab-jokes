@@ -2,6 +2,6 @@
 <button (click)=generateRandomJoke() >Generate joke</button>
 <div *ngIf="joke">
   <p>{{joke.value}}</p>
-  <button>Add joke</button>
+  <button (click)= "addJoke(joke)">Add joke</button>
 </div>
 
